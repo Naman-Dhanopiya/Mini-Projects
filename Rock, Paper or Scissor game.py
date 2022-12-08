@@ -23,3 +23,4 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
+print("Thank you")
