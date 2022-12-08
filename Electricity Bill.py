@@ -21,13 +21,13 @@ else:
     bill = 350 + 1500 + 2000 + ((unit - 500) * 11.25)
 
 bill = bill + (unit*1.00)
-# Bill after adding maintenance charge
+# Bill after adding maintenance charge!
 
 bill = bill + 100
-# Bill after adding meter-box rent
+# Bill after adding meter-box rent!
 
 bill = bill + (bill*0.20)
-# Bill after adding tax
+# Bill after adding tax!
 
 print("Your total bill amount is:" , bill)
 print("Thank You")
